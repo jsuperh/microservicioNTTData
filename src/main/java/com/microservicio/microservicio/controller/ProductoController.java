@@ -28,6 +28,12 @@ public class ProductoController {
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
 
+    /**
+     * Ejemplo documentación javadoc:
+     * Método para obtener un listado de los productos
+     * @return List<Producto>
+     * @since 29.06.2022
+     */
     @GetMapping("/listado")
     @ResponseStatus(HttpStatus.OK)
     public List<Producto> getAllProducts(){
